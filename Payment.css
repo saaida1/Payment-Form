@@ -1,0 +1,97 @@
+
+.pay-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color:  #212530;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgb(62, 61, 61);
+    color:  rgb(117, 112, 112);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+  }
+  
+  .pay-container .h1 {
+    text-align: center;
+    color: white;
+  }
+  
+  .pay-container .p {
+    text-align: center;
+    color:white;
+  }
+  
+  .pay-container .form {
+    margin-top: 20px;
+  }
+  
+  .pay-container .label {
+    display: block;
+    margin-bottom: 5px;
+    color:(117, 112, 112);
+
+  }
+  
+  .pay-container .input[type="text"],
+  .pay-container .input[type="url"],
+  .pay-container .input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .pay-container #paypal-payment {
+    background-color: rgb(239, 177, 90);
+    width: 150px;
+    border-radius: 5px;
+    border-color:rgb(239, 177, 90) ;
+    margin-bottom: 10px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .pay-container #payment-method {
+    margin-bottom: 10px;
+  }
+  
+  .pay-container #service {
+    margin-bottom: 10px;
+  }
+  
+  .pay-container .input[type="submit"] {
+    width: 100%;
+    background-color: white;
+    color: rgb(117, 112, 112);
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .pay-container .input[type="submit"]:hover {
+    background-color: rgb(186, 117, 37);
+  }
+  
+  .pay-container .footer {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: small;
+  }
+  
+  .pay-container .paypal-button {
+    background-color: #0070ba;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pay-container .paypal-button:hover {
+    background-color: #005ea6;
+  }
+  
